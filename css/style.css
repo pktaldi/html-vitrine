@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.maior {
+    text-transform: uppercase;
+    color: red;
+    padding: 3px;
+}
+
+#introducao {
+    background-color: rgb(135, 131, 246);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#introducao img {
+    height: 300px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
