@@ -58,7 +58,6 @@ body {
     padding: 20px;
 }
 .personagens {
-    flex: 1;
     background-color: antiquewhite;
     width: 300px;
     text-align: center;
